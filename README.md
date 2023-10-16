@@ -1,5 +1,17 @@
 # Blah
 
+## Error
+There is a boundary error compiling this repository;
+
+```
+$ mix compile --force
+warning: forbidden reference to Blah.Context.Subcontext.Module
+  (references from BlahWeb to Blah.Context are not allowed)
+  lib/blah_web/controllers/page_html/home.html.heex:1
+```
+
+## Starting app
+
 To start your Phoenix server:
 
   * Run `mix setup` to install and setup dependencies
